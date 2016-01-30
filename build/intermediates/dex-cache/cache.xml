@@ -2,186 +2,193 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\ClownFish\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-ff859483482315e16321e40678f8654dd7e8bb19.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-892abb41a7f8ab7f3533d7f8440e3ca46041dbcc.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.9.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="ca51025f4a58fc7fb6cfaa85e7d09b7ae47e6187">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-504f2f0b83348c3c62cece0f5b60648d28e43a5e.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\libs\custom_api_v1.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0c235e51ecc1fa705751320a5debca659f89eed6">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\custom_api_v1.0-9bb8b722df3b07bb9ebfda2499952ee4bd046736.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\libs\Volley.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\Volley-d5a0695f739106da08aa02d0e124cccd3f72fb1c.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.9.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="57528b5deee77bfa2188fc279fd45066366f17f5">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-caba03162260a5ae0f87b25fbb0cfb68a97d782c.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.9.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="3158c15bb0ae97575debdb40cfcd8f0f9f244526">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-228b55c8249702fd82a6b1f6aa72f8692c20bec2.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-f92a9c14938c56602d0ceeeec9c0c357a4c72bd0.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-2b1d641a01dffb450a0a5a97f38ace645320dd78.jar" />
-    </item>
-    <item
-        jar="D:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-6a44e920aa10945ee48eee4b034f1e4d02defa2f.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\libs\alipaySDK-20150818.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6dde19fc34adb03c637b17fdaa754e0c02cf75a0">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\alipaySDK-20150818-5a41e9d255abfc00af2e6ebe563d9f489b1806f5.jar" />
-    </item>
-    <item
-        jar="C:\Users\ClownFish\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.6.0\212387a39088ecd3daff8e3bfc3bdc4123e33c67\okhttp-2.6.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\okhttp-2.6.0-7fce19431903bba84dc228375432d23f07713b63.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-8c3ee86b0360f683c66a506bf1a21b1cadf7b49a.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp\0.9.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0c470319faf4ceb732c9e980b8fd54d3033ca972">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-6e2d2e021daedc69b5a6d7cfbb7c7f536fbb3c76.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\libs\library_afinal.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="13021a9d57bf242a9c684c031b5bfc527577d7ca">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\library_afinal-7c324fb4d4f3bfc439ab6ceb2a21ba475be52622.jar" />
-    </item>
-    <item
-        jar="C:\Users\ClownFish\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\okio-1.6.0-e392e68817e449c33571aeab001232064affe07a.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-3c34abac281fb8df3a5547beab64dba650e4d0b0.jar" />
-    </item>
-    <item
-        jar="C:\Users\ClownFish\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\picasso-2.5.2-b0c56aef15fd4e35f97a4755f411b559ce610c30.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.9.0\jars\classes.jar"
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.9.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="4ee95617ab850030c51486d02bc9d207b14419c6">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-226f42326397983cb9b93a2f93f1e90b2dd371ac.jar" />
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-d807edea43fab559a55157dcf9949761ab02df86.jar" />
     </item>
     <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-ff2c43b310094547857fd49e3a2b91a1546b995f.jar" />
-    </item>
-    <item
-        jar="C:\Users\ClownFish\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\library-2.4.0-a43b4f69a350dc14c4b4c2b837f428b764b841f6.jar" />
-    </item>
-    <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\libs\gson-2.2.4.jar"
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\libs\gson-2.2.4.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\gson-2.2.4-88bd8801fd636086ffa201494aed5b409b3e9e86.jar" />
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\gson-2.2.4-acc67cd4eb06aa96e692cdf8e44ce7688ff6d6f4.jar" />
     </item>
     <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\libs\Volley.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-2ef600ec3f2668685c8afdc6417e8df1e969df90.jar" />
+        sha1="77faa9ffd189160d1e22c58fdf5eed0a9a08b816">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\Volley-d3977be1f2d6defc2b48278c8f9943f9d7c86dcf.jar" />
     </item>
     <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\libs\httpmime-4.1.3.jar"
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.9.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\httpmime-4.1.3-dd354c55b0dd6d146901c9de978913dc5dc945fb.jar" />
+        sha1="ca51025f4a58fc7fb6cfaa85e7d09b7ae47e6187">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-b51209c23561e832f1be133a21c297ad53aa4adb.jar" />
     </item>
     <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jar="C:\Users\qin\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\okio-1.6.0-ad3eb25d29ab84d0d974e98ccb5ee08da24b6c1e.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3158c15bb0ae97575debdb40cfcd8f0f9f244526">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-0a3a1f97e836109a40bc16e942dabe9009846f8d.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-d0ae8fb770484f737aa75c3f1cd63eeda5b1b8d5.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\libs\alipaySDK-20150818.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6dde19fc34adb03c637b17fdaa754e0c02cf75a0">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\alipaySDK-20150818-efd9a85fec1db8331f7e07253d12be419a3daaf4.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="57528b5deee77bfa2188fc279fd45066366f17f5">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-e807619db784a314906cc434a6132f0a5678f2f9.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-6c773f34d4f8a5e838062d1273b6b924ae5a6a36.jar" />
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-5e584a539831808ee8365c60ab23074011afb892.jar" />
     </item>
     <item
-        jar="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.9.0\jars\classes.jar"
+        jar="C:\Users\qin\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-18414fc8ea75e0be8a5631f48d48a8cbb4f75a4b.jar" />
+    </item>
+    <item
+        jar="C:\Users\qin\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\library-2.4.0-497dbf7e0b3236f77e7aed9ad1f8a5816a781de5.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-f8a26552b964d50c5401a063763267e18712d31c.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-449fa6132367b9d00eb80efc2446cb09d5588ddf.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\libs\custom_api_v1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0c235e51ecc1fa705751320a5debca659f89eed6">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\custom_api_v1.0-41e21fca02c38541f76d173dad36be0a92e37d15.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\picasso-2.5.2-a7fc001a124741fe076b528050e5deaaf8b7dc5f.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.daimajia.slider\library\1.1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-b895e06a43d1c8942279412f2cbce51b4cb52227.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\libs\library_afinal.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="13021a9d57bf242a9c684c031b5bfc527577d7ca">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\library_afinal-10257f7970d2ef5b716e475d48a98fce90e4fc19.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-4af849d34ad042cac81f7d5cc8c77c761c054518.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-ff8b3ed79efe762a8117d5f488101546bd1841ca.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.9.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="39bd9f893c75eac9e76559cc4e96af6e417afdc5">
-        <dex dex="E:\桌面\StudioProjects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-24bdefcb9058650815a6cd53688cc1d217838af2.jar" />
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-ce169e99766138b05ae063da7fe927594bccec7a.jar" />
+    </item>
+    <item
+        jar="C:\Users\qin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.6.0\212387a39088ecd3daff8e3bfc3bdc4123e33c67\okhttp-2.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\okhttp-2.6.0-b786670a3e5a84bd6f1d076084aa040d4174aff8.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\httpmime-4.1.3-21f7a72cc355f546183911b1e97a9bd8a33767aa.jar" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-160e21806fe4fcbe2b20c34d1bbde421f69a17ae.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\StudioProjects\SlidingMenu\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="36516f2fc3499e8a84d13a140ed7003121b77375">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-b9e3c46ecab603e631436ba17358433c2aff8bd0.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-5ea9901624b176976678bb520ebcf9f9c7522f83.jar" />
+    </item>
+    <item
+        jar="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp\0.9.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0c470319faf4ceb732c9e980b8fd54d3033ca972">
+        <dex dex="D:\Android\projects\StudioProjects\LEPAAndroid\build\intermediates\pre-dexed\debug\classes-f1f0224a80913892018860671b742f60cde54e79.jar" />
     </item>
 
 </items>

@@ -3,10 +3,13 @@ package com.dalianbobo.lepaandroid.activity;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.view.Window;
@@ -23,6 +26,12 @@ import com.dalianbobo.lepaandroid.fragment.ShoppingCartFragment;
 import com.dalianbobo.lepaandroid.fragment.MallFragment;
 import com.dalianbobo.lepaandroid.fragment.CommunityFragment;
 import com.dalianbobo.lepaandroid.fragment.ClassifyFragment;
+import com.dalianbobo.lepaandroid.im.fragment.ConversationFragment;
+import com.dalianbobo.lepaandroid.im.fragment.FriendListFragment;
+import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -47,6 +56,11 @@ public class MainTabFragmentActivity extends FragmentActivity implements View.On
     private final int FragmentFour = 3;
     private final int FragmentFive = 4;
 
+
+    private List<Fragment> fragmentList;
+    private Fragment mConversationFragment, mFriendListFragment;
+    private String[] titles = {"消息","好友列表"};
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +70,9 @@ public class MainTabFragmentActivity extends FragmentActivity implements View.On
         initViews();
         initListener();
         setSelectTabFragment(FragmentOne);
+
+        setSlidingMenu();
+        initMenu();
     }
 
     /**
@@ -91,6 +108,63 @@ public class MainTabFragmentActivity extends FragmentActivity implements View.On
         mLlThree.setOnClickListener(this);
         mLlFour.setOnClickListener(this);
         mLlFive.setOnClickListener(this);
+    }
+
+    private void setSlidingMenu() {
+        SlidingMenu menu = new SlidingMenu(this);
+        menu.setMode(SlidingMenu.RIGHT);
+        // 设置触摸屏幕的模式
+        menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+        menu.setShadowWidthRes(R.dimen.y2);
+//        menu.setShadowDrawable(R.drawable.shadow);
+        // 设置滑动菜单后主布局能够显示宽度
+        menu.setBehindOffsetRes(R.dimen.y35);
+        // 设置渐入渐出效果的值
+        menu.setFadeDegree(0.35f);
+        /**
+         * SLIDING_WINDOW will include the Title/ActionBar in the content
+         * section of the SlidingMenu, while SLIDING_CONTENT does not.
+         */
+        menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
+        //为侧滑菜单设置布局
+        menu.setMenu(R.layout.menu_sliding_right);
+    }
+
+    private void initMenu() {
+        TabLayout mTabLayout = (TabLayout) findViewById(R.id.tablayout_friends);
+        ViewPager mViewPager = (ViewPager) findViewById(R.id.viewpager_friends);
+
+        if (mConversationFragment == null) {
+            mConversationFragment = new ConversationFragment();
+        }
+        if (mFriendListFragment == null) {
+            mFriendListFragment = new FriendListFragment();
+        }
+        if (fragmentList == null) {
+            fragmentList = new ArrayList<>();
+            fragmentList.add(mConversationFragment);
+            fragmentList.add(mFriendListFragment);
+        }
+
+        mViewPager.setAdapter(new FragmentPagerAdapter(this.getSupportFragmentManager()) {
+            @Override
+            public Fragment getItem(int position) {
+                return fragmentList.get(position);
+            }
+
+            @Override
+            public int getCount() {
+                return fragmentList.size();
+            }
+
+            @Override
+            public CharSequence getPageTitle(int position) {
+                return titles[position];
+            }
+        });
+        mTabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+        mTabLayout.setTabMode(TabLayout.MODE_FIXED);
+        mTabLayout.setupWithViewPager(mViewPager);
     }
 
     @Override
