@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="custom_api_v1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LEPAAndroid/libs/custom_api_v1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

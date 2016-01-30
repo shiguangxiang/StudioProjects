@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/slategray"
+    android:orientation="vertical">
+
+    <include layout="@layout/head_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B0B0B0">
+        <!--购物车没有数据-->
+        <LinearLayout
+            android:id="@+id/ll_gouwuche_null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:visibility="gone">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/y100"
+                    android:layout_height="@dimen/y94"
+                    android:background="@drawable/iv_gouwuche_n" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/y12"
+                    android:text="您的购物车是空的"
+                    android:textColor="@color/slategray"
+                    android:textSize="@dimen/text_size_two" />
+
+                <ImageView
+                    android:id="@+id/iv_four_toBuy"
+                    android:layout_width="@dimen/y106"
+                    android:layout_height="@dimen/y28"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/btn_gouwuche_buy" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--购物车有数据-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/lv_shoppingCar"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:cacheColorHint="@color/transparent"
+                android:choiceMode="multipleChoice"
+                android:layout_height="0dp">
+            </ListView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_marginBottom="12dp"
+                android:layout_height="@dimen/y41">
+
+                <CheckBox
+                    android:id="@+id/cb_shopping"
+                    android:layout_width="wrap_content"
+                    android:text="全选"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="合计："
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="￥149.5"
+                        android:textColor="@color/orangered"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="96dp"
+                        android:layout_centerInParent="true"
+                        android:background="@mipmap/ic_launcher"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tv_shopingCount"
+                        android:layout_width="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:text="结算（1）"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

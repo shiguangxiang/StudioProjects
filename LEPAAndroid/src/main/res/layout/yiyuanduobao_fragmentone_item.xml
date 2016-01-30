@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/y6"
+        android:paddingLeft="@dimen/y15"
+        android:paddingRight="@dimen/y15"
+        android:paddingTop="@dimen/y6">
+
+        <ImageView
+            android:id="@+id/iv_yibao_item"
+            android:layout_width="@dimen/y39"
+            android:layout_height="@dimen/y39"
+            android:background="@mipmap/ic_launcher" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/iv_yibao_item"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_yibao_name"
+                android:layout_width="wrap_content"
+                android:text="镂空三角杯开襟网妙美杯水群"
+                android:textSize="@dimen/text_size_four"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="价格:￥189"
+                android:layout_marginTop="8dp"
+                android:textSize="@dimen/text_size_nine"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="提供:20份"
+                android:layout_marginTop="2dp"
+                android:textSize="@dimen/text_size_nine"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="申请:21089人"
+                android:layout_marginTop="2dp"
+                android:textSize="@dimen/text_size_nine"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_yiyuan_is"
+            android:layout_width="@dimen/y52"
+            android:background="@drawable/iv_yiyuan_n"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_height="@dimen/y22" />
+    </RelativeLayout>
+</LinearLayout>

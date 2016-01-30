@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_product_image_gv"
+            android:layout_width="160dp"
+            android:background="@mipmap/ic_launcher"
+            android:layout_height="160dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_product_name_gv"
+                android:textSize="@dimen/text_size_three"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="猫女三点式毛毛变撒尔特人厄特打撒第三代头"/>
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_product_price_gv"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/text_size_three"
+                android:layout_height="wrap_content"
+                android:text="￥19.00"/>
+            <TextView
+                android:id="@+id/tv_product_num_gv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_three"
+                android:layout_alignParentRight="true"
+                android:text="销售量:1567"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

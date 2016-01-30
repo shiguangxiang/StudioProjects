@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F5F6"
+    android:orientation="vertical">
+
+    <include layout="@layout/head_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/ll_duobao1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_duobao1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="正在进行"
+                android:textColor="@color/slategray"
+                android:textSize="@dimen/text_size_two" />
+
+            <ImageView
+                android:id="@+id/iv_duobao1"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#3ECDBA" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@color/slategray" />
+
+        <LinearLayout
+            android:id="@+id/ll_duobao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_duobao2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="下期预告"
+                android:textColor="@color/slategray"
+                android:textSize="@dimen/text_size_two" />
+
+
+            <ImageView
+                android:id="@+id/iv_duobao2"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#3ECDBA" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@color/slategray" />
+
+        <LinearLayout
+            android:id="@+id/ll_duobao3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_duobao3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="晒单分享"
+                android:textColor="@color/slategray"
+                android:textSize="@dimen/text_size_two" />
+
+            <ImageView
+                android:id="@+id/iv_duobao3"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#3ECDBA" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/yiyuan_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</LinearLayout>

@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/head_title" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y140">
+
+                <com.dalianbobo.lepaandroid.weiget.ImageCycleView
+                    android:id="@+id/ad_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:id="@+id/ll_index"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/tra_bg">
+
+                    <LinearLayout
+                        android:id="@+id/ll_main_yiyuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/y34"
+                            android:layout_height="@dimen/y34"
+                            android:background="@mipmap/index1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="一元夺宝"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_ten" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_bobi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/y34"
+                            android:layout_height="@dimen/y34"
+                            android:background="@mipmap/index2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="波币专区"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_ten" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/y34"
+                            android:layout_height="@dimen/y34"
+                            android:background="@mipmap/index3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="远程遥控"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_ten" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/y34"
+                            android:layout_height="@dimen/y34"
+                            android:background="@mipmap/index4" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="女神秀"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_ten" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y160">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="9dp">
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/image_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/iv_image_two"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@mipmap/ic_launcher"
+                        android:padding="9dp" />
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/iv_image_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@mipmap/ic_launcher"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="6dp" />
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/iv_image_four"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@mipmap/ic_launcher"
+                        android:padding="9dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!--第一块-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/tv_tt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="情趣内衣"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_three" />
+
+                        <ImageView
+                            android:layout_width="@dimen/y7"
+                            android:layout_height="@dimen/y16"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginRight="@dimen/y11"
+                            android:layout_marginTop="8dp"
+                            android:background="@mipmap/youjiantou" />
+                    </RelativeLayout>
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/iv_tt_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y60"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_tt_two"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:padding="8dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_tt_three"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingTop="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_tt_four"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:padding="6dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_tt_five"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingLeft="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_tt_six"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingLeft="6dp"
+                            android:paddingRight="6dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--第二块-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/tv_maletoys_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="情趣内衣"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_three" />
+
+                        <ImageView
+                            android:layout_width="@dimen/y7"
+                            android:layout_height="@dimen/y16"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginRight="@dimen/y11"
+                            android:layout_marginTop="8dp"
+                            android:background="@mipmap/youjiantou" />
+                    </RelativeLayout>
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/iv_maletoys_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y60"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_maletoys_two"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:padding="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_maletoys_three"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:padding="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_maletoys_four"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:padding="6dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_maletoys_five"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingLeft="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_maletoys_six"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingLeft="6dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--第三块-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/tv_SexyLingerie_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="情趣内衣"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_three" />
+
+                        <ImageView
+                            android:layout_width="@dimen/y7"
+                            android:layout_height="@dimen/y16"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginRight="@dimen/y11"
+                            android:layout_marginTop="8dp"
+                            android:background="@mipmap/youjiantou" />
+                    </RelativeLayout>
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/iv_SexyLingerie_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y60"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_SexyLingerie_two"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:padding="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_SexyLingerie_three"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingTop="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_SexyLingerie_four"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:padding="6dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_SexyLingerie_five"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingLeft="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_SexyLingerie_six"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingLeft="6dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--第四块-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/tv_Flirting_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="情趣内衣"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_three" />
+
+                        <ImageView
+                            android:layout_width="@dimen/y7"
+                            android:layout_height="@dimen/y16"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginRight="@dimen/y11"
+                            android:layout_marginTop="8dp"
+                            android:background="@mipmap/youjiantou" />
+                    </RelativeLayout>
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/iv_Flirting_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y60"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_Flirting_two"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:padding="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_Flirting_three"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingTop="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_Flirting_four"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:padding="6dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_Flirting_five"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingLeft="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_Flirting_six"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingLeft="6dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--第五块-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/tv_Femaletoys_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="情趣内衣"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_three" />
+
+                        <ImageView
+                            android:layout_width="@dimen/y7"
+                            android:layout_height="@dimen/y16"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginRight="@dimen/y11"
+                            android:layout_marginTop="8dp"
+                            android:background="@mipmap/youjiantou" />
+                    </RelativeLayout>
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/iv_Femaletoys_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y60"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_Femaletoys_two"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:padding="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_Femaletoys_three"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingTop="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_Femaletoys_four"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher"
+                            android:padding="6dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_Femaletoys_five"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingLeft="6dp" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_Femaletoys_six"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@mipmap/ic_launcher"
+                            android:paddingBottom="6dp"
+                            android:paddingLeft="6dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--第六块-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/tv_double_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="情趣内衣"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_three" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="@dimen/y7"
+                            android:layout_height="@dimen/y16"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginRight="@dimen/y11"
+                            android:layout_marginTop="8dp"
+                            android:background="@mipmap/youjiantou" />
+                    </RelativeLayout>
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/iv_double_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y60"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_double_two"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_double_three"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_double_four"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@mipmap/ic_launcher" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y100"
+                        android:gravity="center_vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_double_five"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3"
+                            android:background="@mipmap/ic_launcher" />
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:id="@+id/iv_double_six"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@mipmap/ic_launcher" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

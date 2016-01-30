@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/popup_friend_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88212121">
+
+    <FrameLayout
+        android:background="@drawable/popupwindow_friendlist_bg"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/popup_Friends_view">
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/popupwindow_friendlist_bg"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/popup_Friends_view"
+        android:layout_alignEnd="@+id/popup_Friends_view"
+        android:layout_marginTop="114dp" />
+
+
+</RelativeLayout>

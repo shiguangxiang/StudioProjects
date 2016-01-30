@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/head_title" />
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <RelativeLayout
+               android:id="@+id/rl_select_ico"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:background="@color/white"
+               android:padding="@dimen/y12">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="头像"
+                   android:textColor="@color/black"
+                   android:textSize="@dimen/text_size_one" />
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:gravity="center">
+
+                   <com.dalianbobo.lepaandroid.weiget.RoundImageViewByXfermode
+                       android:id="@+id/message_ioc"
+                       android:layout_width="@dimen/y45"
+                       android:layout_height="@dimen/y45"
+                       android:src="@mipmap/p_ico" />
+
+                   <ImageView
+                       android:layout_width="@dimen/y7"
+                       android:layout_height="@dimen/y16"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="@dimen/y8"
+                       android:background="@mipmap/youjiantou" />
+               </LinearLayout>
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="1dp"
+               android:background="@color/white"
+               android:padding="@dimen/y12">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="名字"
+                   android:textColor="@color/black"
+                   android:textSize="@dimen/text_size_one" />
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:gravity="center">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="User Name"
+                       android:textColor="@color/slategray" />
+
+                   <ImageView
+                       android:layout_width="@dimen/y7"
+                       android:layout_height="@dimen/y16"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="@dimen/y8"
+                       android:background="@mipmap/youjiantou" />
+               </LinearLayout>
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="1dp"
+               android:background="@color/white"
+               android:padding="@dimen/y12">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="个性签名"
+                   android:textColor="@color/black"
+                   android:textSize="@dimen/text_size_one" />
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:gravity="center">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="你若安好便是晴天~"
+                       android:textColor="@color/slategray" />
+
+                   <ImageView
+                       android:layout_width="@dimen/y7"
+                       android:layout_height="@dimen/y16"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="@dimen/y8"
+                       android:background="@mipmap/youjiantou" />
+               </LinearLayout>
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="1dp"
+               android:background="@color/white"
+               android:padding="@dimen/y12">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="社区等级"
+                   android:textColor="@color/black"
+                   android:textSize="@dimen/text_size_one" />
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:gravity="center">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="女神级"
+                       android:textColor="@color/slategray" />
+
+                   <ImageView
+                       android:layout_width="@dimen/y7"
+                       android:layout_height="@dimen/y16"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="@dimen/y8"
+                       android:background="@mipmap/youjiantou" />
+               </LinearLayout>
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="1dp"
+               android:background="@color/white"
+               android:padding="@dimen/y12">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="我的地址"
+                   android:textColor="@color/black"
+                   android:textSize="@dimen/text_size_one" />
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:gravity="center">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="User Name"
+                       android:textColor="@color/slategray"
+                       android:visibility="invisible" />
+
+                   <ImageView
+                       android:layout_width="@dimen/y7"
+                       android:layout_height="@dimen/y16"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="@dimen/y8"
+                       android:background="@mipmap/youjiantou" />
+               </LinearLayout>
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="1dp"
+               android:background="@color/white"
+               android:padding="@dimen/y12">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="我的二维码"
+                   android:textColor="@color/black"
+                   android:textSize="@dimen/text_size_one" />
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:gravity="center">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="User Name"
+                       android:textColor="@color/slategray"
+                       android:visibility="invisible" />
+
+                   <ImageView
+                       android:layout_width="@dimen/y7"
+                       android:layout_height="@dimen/y16"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="@dimen/y8"
+                       android:background="@mipmap/youjiantou" />
+               </LinearLayout>
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="1dp"
+               android:background="@color/white"
+               android:padding="@dimen/y12">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="性别"
+                   android:textColor="@color/black"
+                   android:textSize="@dimen/text_size_one" />
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:gravity="center">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="女"
+                       android:textColor="@color/slategray" />
+
+                   <ImageView
+                       android:layout_width="@dimen/y7"
+                       android:layout_height="@dimen/y16"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="@dimen/y8"
+                       android:background="@mipmap/youjiantou" />
+               </LinearLayout>
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="1dp"
+               android:background="@color/white"
+               android:padding="@dimen/y12">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerVertical="true"
+                   android:text="地区"
+                   android:textColor="@color/black"
+                   android:textSize="@dimen/text_size_one" />
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:gravity="center">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="冰岛"
+                       android:textColor="@color/slategray" />
+
+                   <ImageView
+                       android:layout_width="@dimen/y7"
+                       android:layout_height="@dimen/y16"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="@dimen/y8"
+                       android:background="@mipmap/youjiantou" />
+               </LinearLayout>
+           </RelativeLayout>
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

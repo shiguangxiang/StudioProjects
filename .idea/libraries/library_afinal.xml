@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="library_afinal">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LEPAAndroid/libs/library_afinal.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
